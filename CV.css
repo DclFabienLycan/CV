@@ -46,22 +46,29 @@ ul {
 /* Just do the table */
 table {
     border-collapse: collapse;
-    width: 90%;
+    width: 100%;
 }
 
 table, th, td {
     border: 1px solid black;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-thead {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
 }
 
 td {
-    height: 50px;
     text-align: right;
+}
+
+.tab {
+    margin: 80px;
+}
+
+.col1 {
+    width: 150px;
+}
+
+.col2 {
+    width: 250px;
+}
+
+.col3 {
+    width: auto;
 }
