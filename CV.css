@@ -66,8 +66,10 @@ td {
     height: 50px;
 }
 
-.tab {
+.tableau {
     margin: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .col1 {
@@ -80,4 +82,18 @@ td {
 
 .col3 {
     width: auto;
+}
+
+#feti {
+    margin-left: 40px;
+    width: auto;
+    font-size: 30px;
+    text-align: center;
+    color: darkred;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+
 }
