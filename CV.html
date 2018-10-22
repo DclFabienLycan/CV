@@ -1,80 +1,115 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="CV.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<title>CV de Lycan Fabien</title>
-	</head>
-  
-	<body>
-		<header>
-			<img src="./LogoLycan256.png"/>
-		</header>
-			<h1>Lycan Fabien</h1><br><br>
-				<h2>Mes Objectifs</h2><br>
-				<div id="liste">
-					<ol>
-						<li>S'entrainer Physiquement</li>
-						<li>S'entrainer au maniement des armes</li>
-						<li>Commencer a défendre les citoyens</li>
-						<li>Renverser le pouvoir en place</li>
-					</ol>
-				</div>
-				<h2>Mes Formations</h2>
-				<div id=liste2>
-					<ul>
-						<li>Retourner la terre</li>
-						<li>Préparer les semis</li>
-						<li>Faire les récoltes et moissons</li>
-						<li>Entraînement aux armes sur mannequins fabriqué main</li>
-					</ul>
-				</div>	
-				<h2>Mes Expériences</h2>
-					<div class="tableau">
-						<table>
-							<thead>
-								<tr>
-									<th>Années</th>
-									<th>Postes</th>
-									<th>Résumé</th>
-								</tr>
-							</thead>
-								<tr>
-									<td class="col1">Année 3256-3258</td>
-									<td class="col1">Paysan</td>
-									<td class="col3">Travail classique d'un paysan</td>
-								</tr>
-								<tr>
-									<td class="col1">Année 3258</td>
-									<td class="col2">Toujours Paysan</td>
-									<td class="col3">Peu de récolte, mauvaise année</td>
-								</tr>
-								<tr>
-									<td class="col1">Année 3259</td>
-									<td class="col2">Révolutionnaire</td>
-									<td class="col3">A pris les armes après la mort de ses voisins</td>
-								</tr>
-								<tr>
-									<td class="col1">Année 3260</td>
-									<td class="col2">Chef révolutionnaire</td>
-									<td class="col3">Création d'un groupuscule</td>
-								</tr>  
-								<tr>
-									<td class="col1">Année 3061</td>
-									<td class="col2">Chef Révolutionnaire</td>
-									<td class="col3">Une partie de la ville a été reprise</td>
-								</tr>
-						</table>
-						</div>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CV.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>CV de Lycan Fabien</title>
+</head>
+
+<body>
+	<header>
+		<img src="./LogoLycan256.png"/>
+	</header>
+	<main>
+		<h1>Lycan Fabien</h1><br><br>
+		<h2>Mes Objectifs</h2><br>
+		<div id="liste">
+			<ol>
+				<li>S'entrainer Physiquement</li>
+				<li>S'entrainer au maniement des armes</li>
+				<li>Commencer a défendre les citoyens</li>
+				<li>Renverser le pouvoir en place</li>
+			</ol>
+		</div>
+		<h2>Mes Formations</h2>
+		<div id=liste2>
+			<ul>
+				<li>Retourner la terre</li>
+				<li>Préparer les semis</li>
+				<li>Faire les récoltes et moissons</li>
+				<li>Entraînement aux armes sur mannequins fabriqué main</li>
+			</ul>
+		</div>	
+		<h2>Mes Expériences</h2>
+		<div class="tableau">
+			<table>
+				<thead>
+					<tr>
+						<th>Années</th>
+						<th>Postes</th>
+						<th>Résumé</th>
+					</tr>
+				</thead>
+				<tr>
+					<td class="col1">Année 3256-3258</td>
+					<td class="col1">Paysan</td>
+					<td class="col3">Travail classique d'un paysan</td>
+				</tr>
+				<tr>
+					<td class="col1">Année 3258</td>
+					<td class="col2">Toujours Paysan</td>
+					<td class="col3">Peu de récolte, mauvaise année</td>
+				</tr>
+				<tr>
+					<td class="col1">Année 3259</td>
+					<td class="col2">Révolutionnaire</td>
+					<td class="col3">A pris les armes après la mort de ses voisins</td>
+				</tr>
+				<tr>
+					<td class="col1">Année 3260</td>
+					<td class="col2">Chef révolutionnaire</td>
+					<td class="col3">Création d'un groupuscule</td>
+				</tr>  
+				<tr>
+					<td class="col1">Année 3061</td>
+					<td class="col2">Chef Révolutionnaire</td>
+					<td class="col3">Une partie de la ville a été reprise</td>
+				</tr>
+			</table>
+		</div>
+		
+		<h2>Ma Phrase Fétiche</h2>
+		<div id="feti">
+			<p><strong>Une ville propre, est une ville libre</strong></p>
+			<p><em>Il n'y a pas de fumé sans feu !</em></p>
+		</div>
+		
+		<h2>Formulaire de contact</h2>
+		<form>
+			<div class="p1">
+				Nom : <input type="text" name="Nom">
+				Prénom : <input type="text" name="Prenom">
+				Email : <input type="email" name="Mail">
+				Phone : <input type="number" name="Tel">
+			</div>
+			<ul>
+				<li><input type="checkbox" name="Maj">J'aime les épées</li>
+				<li><input type="checkbox" name="Min">Je n'aime pas l'autorité</li>
+				<li><input type="checkbox" name="nain">J'aime les nains !</li>
+				<li><input type="checkbox" name="chocolat">Pain au chocolat !</li>
+				<li><input type="checkbox" name="choco">Chocolatine !</li>
+			</ul>
+			<div class="p2">
+				<input type="radio" name="gender" value="femme">Femme<br>
+				<input type="radio" name="gender" value="homme">Homme
+			</div>
+			<select name="ToutEtRien">
+				<option value="riche">Je suis riche</option>
+				<option value="pauvre">Je mange que des patates</option>
+				<option value="lent">Rien ne vaut un 4 roues motrices</option>
+			</select>
+			Date de naissance :
+			<input type="date" name="birthday">
+			Message :
+			<textarea name="message" rows="8" cols="40">
 				
-				<h2>Ma Phrase Fétiche</h2>
-					<div id="feti">
-						<p><strong>Une ville propre, est ville libre</strong></p>
-						<p><em>Il n'y a pas de fumé sans feu !</em></p>
-					</div>
+			</textarea>
+			<input type="submit" value="Envoyer">
+		</form>
+	</main>
 	<footer>
 		<p>Créé par <a href="https://github.com/DclFabienLycan/cv.git" target="_blank">Fabien Lycan</a>
-	</footer>
+		</footer>
 	</body>
-</html>
+	</html>
